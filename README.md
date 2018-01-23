@@ -5,10 +5,10 @@
 ## Техническая информация:
 ### Как добавить файлы в репозиторий:
 #### Способ 1:
-1. Кинуть мне в одно из следующих социальных средств общения:
-vk.com/mogbup
-Mail: mikhail.motichev@gmail.com
-Viber/Telegram: +7(916)744-13-73
+Кинуть мне в одно из следующих социальных средств общения: 
+1. vk.com/mogbup
+2. Mail: mikhail.motichev@gmail.com
+3. Viber/Telegram: +7(916)744-13-73
 #### Способ 2:
 1. Скачайте приложение [GitHub](https://desktop.github.com/)
 2. Пока приложение скачивается, [зарегистрируйтесь](https://github.com/join?source=header-home)
