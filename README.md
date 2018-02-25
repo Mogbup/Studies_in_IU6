@@ -28,7 +28,7 @@
 
 #### Способ 2 (для настоящих гиков):
 1. Установите консольный клиент git:  
-Для Linux: `sudo apt-get install git`  
+Для Linux: `sudo apt install git`  
 Для MacOS: `brew install git`
 2. Настройте git под себя:  
 ```
