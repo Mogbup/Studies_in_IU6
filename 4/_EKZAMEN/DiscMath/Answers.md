@@ -17,33 +17,4 @@
 16. Композиция соответствий: понятие и порядок построения.
 17. Обобщенная композиция соответствий. Свойства композиции соответствий. Композиция бинарных отношений.
 
-<math>
-<mrow>
-	<mover accent="true">
-		<mi>A</mi>
-		<mo>&#x021C0;</mo>
-	</mover>
-	<mo>=</mo>
-	<msqrt>
-		<mrow>
-			<msubsup>
-				<mi>A</mi>
-				<mi>x</mi>
-				<mn>2</mn>
-			</msubsup>
-			<mo>+</mo>
-			<msubsup>
-				<mi>A</mi>
-				<mi>y</mi>
-				<mn>2</mn>
-			</msubsup>
-			<mo>+</mo>
-			<msubsup>
-				<mi>A</mi>
-				<mi>z</mi>
-				<mn>2</mn>
-			</msubsup>
-		</mrow>
-	</msqrt>
-</mrow>
-</math>(test)
+![Test formula](https://latex.codecogs.com/gif.latex?\mathcal{W}(A,f)&space;=&space;(T,\bar{f}))
