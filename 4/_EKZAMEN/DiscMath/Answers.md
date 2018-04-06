@@ -17,4 +17,12 @@
 16. Композиция соответствий: понятие и порядок построения.
 17. Обобщенная композиция соответствий. Свойства композиции соответствий. Композиция бинарных отношений.
 
-$$|\vec{A}|=\sqrt{A_x^2 + A_y^2 + A_z^2}.$$ (test)
+<math>
+<mrow>
+</mrow>
+</math>
+<mo>|</mo><mover accent="true"><mi>A</mi><mo>&#x021C0;</mo></mover><mo>|</mo><mo>=</mo><msqrt><mrow><msubsup><mi>A</mi><mi>x</mi><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>A</mi><mi>y</mi><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>A</mi><mi>z</mi><mn>2</mn></msubsup></mrow></msqrt><mo>.</mo>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+</mrow>
+</math>(test)
