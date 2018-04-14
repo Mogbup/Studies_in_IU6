@@ -1,48 +1,48 @@
-{Ñîðòèðîâêà ÷åòíûõ ñòðîê ìàññèâà}
+{Ð¡Ð¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ° Ñ‡ÐµÑ‚Ð½Ñ‹Ñ… ÑÑ‚Ñ€Ð¾Ðº Ð¼Ð°ÑÑÐ¸Ð²Ð°}
 program V10;
+
 {$APPTYPE CONSOLE}
 uses
   SysUtils;
 
+const
+  N = 5;
+var
+  m: array  [1..N, 1..N] of integer;
+  i, j, b, d, x, y: integer;
+begin
+  randomize;
+  x := 5;
+  for i := 1 to N do
+  begin
+    writeln;
+    for j := 1 to N do
+    begin
+      m[i, j] := random(10);
+      Write(m[i, j]: x);
+    end;
+  end;
+  writeln;
+  writeln;
+  for i := 1 to N do
+    for j := 1 to N do
+      for d := 1 to N - 1 do
+        if odd(i) then
+          if m[i, d] > m[i, d + 1] then
+          begin
+            b := m[i, d];
+            m[i, d] := m[i, d + 1];
+            m[i, d + 1] := b;
+          end;
 
-const N=5;
-var m:array  [1..N,1..N] of integer;
-i,j,b,d,x,y:integer;
-Begin
-randomize;
-x:=5;
-for i:=1 to N do begin
-writeln;
-for j:=1 to N do begin
- m[i,j]:=random(10);
- write(m[i,j]:x) end;
-end;
-writeln; writeln;
-for i:=1 to N do
-for j:=1 to N do
-for d:=1 to N-1 do
- if odd(i) then
-   if m[i,d]>m[i,d+1] then begin
-      b:=m[i,d]; m[i,d]:=m[i,d+1]; m[i,d+1]:=b;
-      end;
-
-x:=5;
-for i:=1 to N do begin
-for j:=1 to N do write(m[i,j]:x);
-writeln;
-end;
- readln;
-       end.
-
-
-
-
-
-
-
-
-
-
-
+  x := 5;
+  for i := 1 to N do
+  begin
+    for j := 1 to N do
+      Write(m[i, j]: x);
+    writeln;
+  end;
+  readln;
+end.
 
 
